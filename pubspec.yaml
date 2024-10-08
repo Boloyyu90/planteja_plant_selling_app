@@ -1,0 +1,66 @@
+name: flutter_application_testing
+description: "testing widget layouting"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_notch_bottom_bar: ^1.0.3
+  carousel_slider: ^4.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/dark_leaf.jpg
+    - lib/images/profile_pict.jpg
+    - lib/images/plants/Monstera Deliciosa.webp
+    - lib/images/plants/Zamioculcas Zamiifolia.webp
+    - lib/images/plants/Alocasia Amazonica.webp
+    - lib/images/plants/Aglaonema Red Siam Aurora.webp
+    - lib/images/plants/Calathea Orbifolia.webp
+    - lib/images/plants/Fiddle Leaf Fig.webp
+    - lib/images/plants/Peperomia Rosso.webp
+    - lib/images/plants/Philodendron Birkin.webp
+    - lib/images/plants/Pilea Peperomioides.webp
+    - lib/images/plants/Ficus Elastica.webp
+    - lib/images/plants/Zamioculcas Zamiifolia.webp
+    - lib/images/plants/Strelitzia Reginae.webp
+    - lib/images/plants/Aloe Vera.webp
+    - lib/images/plants/Senecio Rowleyanus.webp
+    - lib/images/plants/Nepenthes.webp
+    - lib/images/plants/Calathea lancifolia.webp
+    - lib/images/plants/Dionaea Muscipula.webp
+    - lib/images/plants/Sansevieria Trifasciata.webp
+    - lib/images/promo_banner/promo (1).webp
+    - lib/images/promo_banner/promo (2).webp
+    - lib/images/promo_banner/promo (3).webp
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+        - asset: lib/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: lib/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: lib/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: lib/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+  
+    - family: Tropical Taste
+      fonts:
+        - asset: lib/fonts/Tropical Taste Demo.otf
